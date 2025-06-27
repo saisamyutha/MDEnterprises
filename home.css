@@ -1,0 +1,420 @@
+:root{
+    --green-color:#9AC22C;
+    --black-color:#0000;
+    --white-color:#fff;
+}
+body.whiteMode{
+    margin:0;
+    /*font-family: "Instrument Sans", sans-serif;*/
+    background-color: white;
+    color: black;
+}
+
+body.blackMode{
+    margin:0;
+    /*font-family: "Instrument Sans", sans-serif;*/
+    background-color: black;
+    color: white;
+}
+
+.blackmode .picture{
+    background-color: #000000;
+}
+
+.name{
+    color: #9AC22C;
+    text-decoration: none;
+}
+
+header{
+    background-color: #9AC22C;
+    height: 10  vh;
+    width: 100%;
+}
+nav{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+nav .logo{    
+    padding-left:100px;
+    color: black;
+}
+nav .logo .cmpName {
+    font-weight: bold;
+    font-size: 31px;
+}
+
+nav .logo .catchLine {
+    font-style: italic;
+    font-size: 16px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    padding-right: 135px;
+}
+
+nav ul li a{
+    font-family: "Jost", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+}
+
+nav .mode{
+    padding-right: 20px;
+}
+
+nav .mode .modeImg{
+    height: 44px;
+    width: 44px;
+}
+
+
+
+body {
+    /*font-family: 'Instrument Sans', sans-serif;*/
+    height: 100%;
+    margin: 0;
+}
+
+
+.description{
+    font-size: 20px;
+}
+
+
+:root {
+    --accent: #A5BC09;
+}
+
+span.green-accent {
+    color: var(--accent);
+}
+
+#logo {
+    height: 400px;
+    width: auto;
+}
+
+.green-accent a {
+    color: var(--accent);
+}
+
+.green-accent a:hover {
+    background-color: var(--accent);
+    color: white;
+}
+
+
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+img {
+    height: 400px;
+    max-width: 80vw;
+}
+
+.mainsection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 600px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.picture {
+    display: flex;
+    justify-content: left;
+    background-color: #fff;
+}
+
+div.home-content {
+    font-weight: bold;
+    text-align: right;
+    /* margin-right: 90px; */
+    /* padding: 10%; */
+}
+
+.textregion {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+}
+
+
+div.slogan {
+    font-size: 32px;
+    font-family: NotoSans;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+div.one-liner {
+    /* font-family: ; */
+    font-weight: lighter;
+    font-size: 64px;
+    line-height: 90%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+div.check-out-products {
+    font-weight: lighter;
+    margin-top: 2.5rem;
+    font-size: 32px;
+}
+
+div.check-out-products span {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.slider {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+}
+
+.slider+label {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.slider+label:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.slider:checked+label:before {
+    transform: translateX(20px);
+    background-color: #202020;
+}
+
+/* === Dark Mode Fix === */
+.enabled {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Apply dark mode background and text color to relevant elements */
+.enabled body,
+.enabled .page-wrapper,
+.enabled .mainsection,
+.enabled .textregion,
+.enabled .home-content,
+.enabled .check-out-products,
+.enabled .slogan,
+.enabled .one-liner {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Founder and contact section colors */
+.enabled .founder {
+    color: var(--accent);
+}
+
+.enabled .founder-details {
+    background-color: #202020;
+    color: white;
+}
+
+.enabled .contact-section h2 {
+    color: #ece0cc;
+}
+
+/* Footer in dark mode */
+.enabled footer {
+    background-color: var(--accent);
+}
+
+.enabled footer p {
+    color: #000000;
+}
+
+.enabled img {
+    filter: invert(1);
+}
+
+
+footer {
+    margin-top: auto;
+    background-color: var(--accent);
+    color: white;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hover screen styles */
+.founder-container {
+    position: relative;
+    display: inline-block;
+}
+
+.founder {
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+    /* Set the color to black */
+}
+
+.founder:hover {
+    color: black;
+    /* Ensure color remains black on hover */
+}
+
+.founder-details {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    z-index: 1000;
+    top: 1.5em;
+    /* Adjusted to position below the text */
+    left: 0;
+}
+
+.founder-details img {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+.founder-container:hover .founder-details {
+    display: block;
+}
+
+
+@media all and (max-width: 1100px) {
+
+    /* MAIN CONTENT */
+    .mainsection {
+        flex-direction: column;
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+        gap: 1rem;
+    }
+
+    .home-content {
+        text-align: center;
+    }
+
+    .home-content .one-liner {
+        justify-content: center;
+        font-size: 2.2rem;
+        line-height: 1.3;
+    }
+
+    .home-content .check-out-products {
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    .textregion{
+        font-size: 1.2rem;
+    }
+
+    /* IMAGES */
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* FOUNDER DETAILS */
+    .founder-details {
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .founder-details img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    /* FOOTER */
+    /*  */
+}
+
+.founder-details{
+    color: #000000;
+}
+
+.footer{
+
+    text-align: center;
+   
+    position: relative;
+     background-color: #9AC22C;
+     padding: 1em 0;
+     color: black;
+     padding: 0px 0px 0px 0px;
+     padding: 0px;
+     margin-top: 0;
+     
+}
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+}
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
+    font-style: italic, oblique;
+}
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
+    font-weight: bold;
+    font-style: italic, oblique;
+}
+
+
+body {
+    font-family: 'Computer Modern', sans-serif;
+    height: 100%;
+    margin: 0;
+}

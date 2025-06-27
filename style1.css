@@ -1,0 +1,209 @@
+:root{
+    --green-color:#9AC22C;
+    --black-color:#0000;
+    --white-color:#fff;
+}
+.whiteMode{
+    margin:0;
+    /*font-family: "Instrument Sans", sans-serif;*/
+    background-color: white;
+    color: black;
+}
+
+    
+ .blackMode{
+        margin:0;
+   /* font-family: "Instrument Sans", sans-serif;*/
+    background-color: black !important;
+    color: white;
+}
+
+
+header{
+    background-color: #9AC22C;
+    height: 10  vh;
+    width: 100%;
+}
+nav{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+nav .logo{    
+    padding-left:100px;
+    color: black;
+}
+nav .logo .cmpName {
+    font-weight: bold;
+    font-size: 31px;
+}
+
+nav .logo .catchLine {
+    font-style: italic;
+    font-size: 16px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    padding-right: 135px;
+}
+
+nav ul li a{
+    font-family: "Jost", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+}
+
+nav .mode{
+    padding-right: 20px;
+}
+
+nav .mode .modeImg{
+    height: 44px;
+    width: 44px;
+}
+
+.main h2{
+    text-align: center;
+    font-size: 40px ;
+
+}
+
+.main .greenheading{
+    color: #9AC22C;
+}
+.main img{
+    height: 250px;
+}
+
+.main .left{
+    padding-left: 40px;
+    width: 550px;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.main h3{
+    color: #9AC22C;
+    font-size: 34px;
+}
+.main .right{
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 40px;
+    width: 550px;
+    
+}
+
+.colom{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 80px;
+}
+
+.footer{
+
+    text-align: center;
+   
+    position: relative;
+     background-color: #9AC22C;
+     padding: 1em 0;
+     color: black;
+     padding: 0px 0px 0px 0px;
+     padding: 0px;
+     margin-top: 0;
+     
+}
+
+.uline {
+    text-decoration-line: underline;
+    text-decoration-color: #9AC22C;
+}
+
+.pageHeading{
+    margin-bottom: 20px;
+}
+
+.type1, .type2 {
+  display: flex;
+}
+.type1 .clientLogo {
+    width: 50%;
+    padding-left: 15%;
+}
+.type1 .clientDetails{
+    width: 50%;
+    padding-right: 7%;
+    text-align: center;
+ }
+.type2 .clientLogo {
+    width: 50%;
+    padding-left: 15%;
+}
+.type2 .clientDetails{
+    width: 50%;
+    padding-left: 7%;
+    text-align: center;
+ }
+
+ .dubaiImg{
+    padding-left: 7%;
+ }
+
+ .client{
+    margin-bottom: 48px;
+ }
+ .clientName{
+    font-weight: bold;
+    color: #9AC22C;
+    font-size: 30px;
+    
+ }
+ .assamlogo{
+    padding-left: 60px;
+ }
+
+ .andhralogo{
+    padding-left: 35px;
+ }
+ .michlogo{
+    padding-left: -10px;
+ }
+
+
+ @font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+}
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
+    font-style: italic, oblique;
+}
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
+    font-weight: bold;
+    font-style: italic, oblique;
+}
+
+
+body {
+    font-family: 'Computer Modern', sans-serif;
+    height: 100%;
+    margin: 0;
+}

@@ -1,0 +1,284 @@
+:root{
+    --green-color:#9AC22C;
+    --black-color:#0000;
+    --white-color:#fff;
+}
+body.whiteMode{
+    margin:0;
+    /*font-family: "Instrument Sans", sans-serif;*/
+    background-color: white;
+    color: black;
+}
+
+body.blackMode{
+    margin:0;
+    /*font-family: "Instrument Sans", sans-serif;*/
+    background-color: black;
+    color: white;
+}
+
+header{
+    background-color: #9AC22C;
+    height: 10  vh;
+    width: 100%;
+}
+nav{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+nav .logo{    
+    padding-left:100px;
+    color: black;
+}
+nav .logo .cmpName {
+    font-weight: bold;
+    font-size: 31px;
+}
+
+nav .logo .catchLine {
+    font-style: italic;
+    font-size: 16px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    padding-right: 135px;
+}
+
+nav ul li a{
+    font-family: "Jost", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+}
+
+nav .mode{
+    padding-right: 20px;
+}
+
+nav .mode .modeImg{
+    height: 44px;
+    width: 44px;
+}
+
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+
+body {
+  margin: 0;
+  height: 100%;
+ /* font-family: 'Instrument Sans', sans-serif;*/
+}
+
+.content {
+  padding: 40px;
+  margin: 0;
+  max-width: 100%;
+}
+
+.ravi {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.lorne {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.ravi .profile-image {
+  width: 600px;
+  padding-top: 20px;
+}
+
+.lorne .profile-image {
+  width: 1050px;
+  padding-top: 50px;
+}
+
+.profile-details h1 {
+  font-weight: lighter;
+  font-size: 4rem;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
+.enabled img.no-invert {
+  filter: none;
+}
+
+.profile-image img {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+.profile-details a {
+  color: #b2d235
+}
+
+.profile-details h2 {
+  color: #b2d235;
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+}
+
+.contact-section {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  padding: 2.5%;
+}
+
+.contact-section h2 {
+  font-weight: lighter;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #A5BC09
+}
+
+.contact-section h2 span {
+  color: #b2d235;
+}
+
+.contact-details {
+  border: 1px solid #b2d235;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  font-size: 1.3rem;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 20px;
+  align-items: center;
+}
+
+.contact-details p {
+  font-size: 1.3rem;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.contact-details a {
+  color: #b2d235;
+  text-decoration: underline;
+}
+
+.enabled {
+  .content {
+    background-color: black;
+  }
+
+  background-color: black;
+
+
+}
+
+.enabled * {
+  .contact-section h2 {
+    color: white;
+  }
+
+  color: white;
+}
+
+.footer{
+
+    text-align: center;
+   
+    position: relative;
+     background-color: #9AC22C;
+     padding: 1em 0;
+     color: black;
+     padding: 0px 0px 0px 0px;
+     padding: 0px;
+     margin-top: 0;
+     
+}
+
+@media (max-width: 1100px) {
+  .profile-details h1 {
+    font-size: 3rem;
+  }
+
+  .ravi {
+    flex-direction: column;
+  }
+
+  .ravi .profile-image {
+    margin-bottom: 10%;
+    width: 250px;
+  }
+
+  .lorne {
+    flex-direction: column;
+  }
+
+  .lorne .profile-image {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 250px;
+  }
+
+  .contact-details {
+    width: 80%;
+    font-size: 1rem;
+  }
+
+  .contact-details p{
+    font-size: 1rem;
+  }
+}
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+}
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
+    font-style: italic, oblique;
+}
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
+    font-weight: bold;
+    font-style: italic, oblique;
+}
+
+
+body {
+    font-family: 'Computer Modern', sans-serif;
+    height: 100%;
+    margin: 0;
+}
